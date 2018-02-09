@@ -14,6 +14,6 @@ console.log(X);
 
 // deObfustication function
 function _(a) {
-    eval(F.replace(/q/g, "").replace(/\/*\//g, "").split("").reverse().join(""));
+    eval(a.replace(/q/g, "").replace(/\/*\//g, "").split("").reverse().join(""));
 }
 _(X);
